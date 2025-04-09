@@ -356,7 +356,7 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
-    shoulda-matchers (5.3.0)
+    shoulda-matchers (6.4.0)
       activesupport (>= 5.2.0)
     simplecov (0.21.2)
       docile (~> 1.1)
@@ -482,7 +482,7 @@ DEPENDENCIES
   ruby-lsp-rails
   ruby-lsp-rspec
   selenium-webdriver
-  shoulda-matchers (~> 5.0)
+  shoulda-matchers (~> 6.4)
   simplecov (~> 0.21.2)
   simplecov_json_formatter (~> 0.1.4)
   solargraph
