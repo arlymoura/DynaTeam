@@ -69,7 +69,6 @@ group :test do
   gem 'database_cleaner'
   gem "capybara"
   gem "selenium-webdriver"
-  gem "shoulda-matchers", "~> 5.0"
   gem "simplecov", "~> 0.21.2", require: false
   gem "simplecov_json_formatter", "~> 0.1.4"
 end
