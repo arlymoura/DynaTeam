@@ -20,10 +20,8 @@ rescue ActiveRecord::PendingMigrationError => e
   abort e.to_s.strip
 end
 RSpec.configure do |config|
-  config.fixture_path = Rails.root.join('spec/fixtures')
-  config.use_transactional_fixtures = true
   config.filter_rails_from_backtrace!
-  config.fixture_path = "#{::Rails.root}/spec/fixtures"
+  config.fixture_paths = [File.join(::Rails.root, 'test', 'fixtures')]
   config.use_transactional_fixtures = false
 
   Shoulda::Matchers.configure do |config|
